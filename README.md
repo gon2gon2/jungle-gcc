@@ -4,7 +4,7 @@
 
 ## 사용방법
 ### 1. 이미지 실행하기
-- 아래 커맨드를 통해 gcc컴파일러가 설치된 컨테이너를 실행시킬 수 있습니다
+- 아래 커맨드를 통해 gcc컴파일러가 설치된 컨테이너를 실행시
 ```
 git clone https://github.com/gon2gon2/jungle-gcc.git
 cd jungle-gcc
