@@ -34,4 +34,4 @@ docker run --name -itd jungle-gcc
 ![image](https://user-images.githubusercontent.com/62205620/165768380-bf59cb64-253c-44b0-9dbe-9c2f1d1285f3.png)
 
 ### 5. 새 프로젝트 시작!
-- 
+- 정글 웹사이트를 참고해 clone 등을 진행하고 프로젝트를 시작합니다!
