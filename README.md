@@ -30,6 +30,8 @@ docker run --name -itd jungle-gcc
 1. vscode의 왼쪽에서 docker extension을 클릭합니다.
 2. CONTAINERS 탭에서 현재 실행중인 컨테이너를 우클릭합니다.
 3. `Attach visual studio code`를 선택합니다. (새로운 vscode 윈도우가 생길 수 있습니다)
-4. 원하는 디렉토리에서 프로젝트를 clone하고 시작합니다.
 
 ![image](https://user-images.githubusercontent.com/62205620/165768380-bf59cb64-253c-44b0-9dbe-9c2f1d1285f3.png)
+
+### 5. 새 프로젝트 시작!
+- 
