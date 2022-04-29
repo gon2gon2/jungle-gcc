@@ -20,10 +20,9 @@ docker build -t jungle-gcc .
 docker run -itd --name jungle-gcc --restart=always jungle-gcc
 ```
 - 만약 기존에 사용하던 디렉토리 구조를 컨테이너 내부에서도 사용하고 싶다면 -v옵션을 사용하여 로컬의 저장공간과 컨테이너의 저장공간을 연결할 수 있습니다.
-- 저는 `docker run -itd -v /home/gon2gon2/rbtree:/rbtree --name jungle-gcc --restart=always jungle-gcc`
+- 저는 `docker run -itd -v /home/gon2gon2/rbtree:/home/rbtree --name jungle-gcc --restart=always jungle-gcc`
 - 아래에서 원하시는 방식으로 하면 되겠습니다.(절대경로를 사용하세요)
 ```
--v {FOLDER_1}/{FORDER_2}/{FOLDER_3}:{FOLDER_3} -> 최하단만 일치해도 ok
 -v {FOLDER_1}/{FORDER_2}/{FOLDER_3}:{FOLDER_1}/{FORDER_2}/{FOLDER_3} : 아예 일치해도 ok
 -v {FOLDER_1}/{FORDER_2}/{FOLDER_3}:{FOLDER_4}/{FORDER_5} : 다른 경로를 해도 ok
 ```
