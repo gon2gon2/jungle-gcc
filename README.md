@@ -51,4 +51,4 @@ docker run -itd --name jungle-gcc --restart=always jungle-gcc
 - vscode에서 c 디버깅모드 가능
 #### bug fix
 - 기존 gcc이미지에서는 vscode debug모드 사용 시 gcc나 gdb를 찾지 못하는 에러가 있어 베이스 이미지를 ubuntu 20.04로 교체하였습니다.
-- gh 설치 스크립트를 DOCKERFILE에서 RUN 명령어를 수행했을 때는 에러가 나서 어쩔 수 없이 별도의 스크립트 파일로 분리했습니다.
+- https://github.com/gon2gon2/jungle-gcc/issues/1 gh 설치 과정을 DOCKERFILE에서 RUN 명령어로 수행했을 때는 에러가 나서 어쩔 수 없이 별도의 스크립트 파일로 분리했습니다.
