@@ -42,3 +42,10 @@ docker run -itd --name jungle-gcc --restart=always jungle-gcc
 
 ### 5. 새 프로젝트 시작!
 - 정글 웹사이트를 참고해 clone 등을 진행하고 프로젝트를 시작합니다!
+
+
+## Release
+### 04 29 2022
+#### bug fix
+- 기존 gcc이미지에서는 vscode debug모드 사용 시 gcc나 gdb를 찾지 못하는 에러가 있어 베이스 이미지를 ubuntu 20.04로 교체하였습니다.
+- gh 설치 스크립트를 DOCKERFILE에서 RUN 명령어를 수행했을 때는 에러가 나서 어쩔 수 없이 별도의 스크립트 파일로 분리했습니다.
