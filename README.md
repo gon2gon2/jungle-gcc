@@ -45,7 +45,12 @@ docker run -itd --name jungle-gcc --restart=always jungle-gcc
 
 
 ## Release
-### 04 29 2022
+### 05 2022
+#### bug fix
+- https://github.com/gon2gon2/jungle-gcc/issues/2 컨테이너 내부에서 타임존이 한국으로 설정되지 않던 버그 수정
+
+
+### 04 2022
 #### features
 - gh auth login 가능
 - vscode에서 c 디버깅모드 가능
