@@ -1,5 +1,5 @@
 # jungle-gcc
-정글 5주차를 위한 gcc 도커 이미지
+정글 5주차 과제인 rbtree-lab을 위한 gcc 도커 이미지
 
 
 ## 사용방법
